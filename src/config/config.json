@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Umbral Astro",
-    "base_url": "https://Umbral-astro.vercel.app",
+    "base_url": "https://umbral.ai",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -41,6 +41,6 @@
   "metadata": {
     "meta_author": "umbral.com",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Umbral astro template"
+    "meta_description": "Umbral is focused on controlling the chaos of data and turning it into a competitive advantage. We provide a platform that enables organizations to build, deploy, and manage AI applications at scale."
   }
 }
