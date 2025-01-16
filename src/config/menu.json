@@ -1,0 +1,77 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+            {
+          "name": "Tools",
+          "url": "/integrations"
+        },
+
+               {
+          "name": "Pricing",
+          "url": "/pricing"
+        },
+
+    {
+      "name": "Resources",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+         {
+          "name": "Blog",
+          "url": "/posts"
+        },
+        {
+          "name": "Career",
+          "url": "/career"
+        },
+        {
+          "name": "Terms & Conditions",
+          "url": "/terms-policy"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "name": "About us",
+          "url": "/about"
+        },
+        {
+          "name": "Contact us",
+          "url": "/contact"
+        },
+        {
+          "name": "Pricing",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "name": "Blog",
+          "url": "/posts"
+        },
+        {
+          "name": "Career",
+          "url": "/career"
+        },
+        {
+          "name": "Terms & Conditions",
+          "url": "/terms-policy"
+        }
+      ]
+    }
+  ]
+}
