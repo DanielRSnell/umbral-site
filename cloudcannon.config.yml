@@ -1,50 +1,89 @@
-source: /src/
+_schema: _schema
+paths:
+  uploads: public/uploads
+  static: public
 collections_config:
   pages:
     path: content/pages
     name: Pages
     icon: wysiwyg
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   authors:
     path: content/authors
     name: Authors
     icon: person
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   careers:
     path: content/careers
     name: Careers
     icon: camera
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   config:
     path: config
     name: Config
     icon: coffee
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   homepage:
     path: content/homepage
     name: Homepage
     icon: compare
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   integrations:
     path: content/integrations
     name: Integrations
     icon: attractions
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   posts:
     path: content/posts
     name: Posts
     icon: event_available
     disable_url: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   sections:
     path: content/sections
     name: Sections
     icon: directions
     disable_url: true
-paths:
-  static: public
-  uploads: public/uploads
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 timezone: America/New_York
 markdown:
   engine: commonmark
   options:
+    xhtml: false
+    breaks: false
+    linkify: false
+    typographer: false
+    spaced_lists: false
+    sentence_per_line: false
     gfm: true
+    code_block_fences: '```'
+    escape_snippets_in_code_blocks: false
+    treat_indentation_as_code: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    attributes: false
