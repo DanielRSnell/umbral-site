@@ -1,5 +1,5 @@
 ---
-title: About Umbral Agency
+title: About Umbral
 meta_title: About us
 description: >-
   Your partner in business automation and AI integration, helping companies
