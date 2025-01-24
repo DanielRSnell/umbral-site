@@ -1,71 +1,84 @@
 _schema: _schema
-source: /src/
 paths:
   uploads: public/
   uploads_use_relative_path: true
   static: public
 collections_config:
   pages:
-    path: content/pages
+    path: src/content/pages
     name: Pages
     icon: wysiwyg
     disable_url: true
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   authors:
-    path: content/authors
+    path: src/content/authors
     name: Authors
     icon: person
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   careers:
-    path: content/careers
+    path: src/content/careers
     name: Careers
     icon: camera
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   config:
-    path: config
+    path: src/config
     name: Config
     icon: coffee
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   homepage:
-    path: content/homepage
+    path: src/content/homepage
     name: Homepage
     icon: compare
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   integrations:
-    path: content/integrations
+    path: src/content/integrations
     name: Integrations
     icon: attractions
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
-    path: content/posts
+    path: src/content/posts
     name: Posts
     icon: event_available
     disable_url: true
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   sections:
-    path: content/sections
+    path: src/content/sections
     name: Sections
     icon: directions
     disable_url: true
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
