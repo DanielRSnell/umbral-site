@@ -19,7 +19,8 @@ collections_config:
     path: src/content/authors
     name: Authors
     icon: person
-    disable_url: true
+    url: /authors
+    disable_url: false
     description: ''
     _enabled_editors:
     disable_add: false
@@ -29,7 +30,8 @@ collections_config:
     path: src/content/careers
     name: Careers
     icon: camera
-    disable_url: true
+    url: /careers
+    disable_url: false
     description: ''
     _enabled_editors:
     disable_add: false
@@ -49,7 +51,8 @@ collections_config:
     path: src/content/homepage
     name: Homepage
     icon: compare
-    disable_url: true
+    url: /
+    disable_url: false
     description: ''
     _enabled_editors:
     disable_add: false
@@ -59,7 +62,8 @@ collections_config:
     path: src/content/integrations
     name: Integrations
     icon: attractions
-    disable_url: true
+    url: /integrations
+    disable_url: false
     description: ''
     _enabled_editors:
     disable_add: false
@@ -69,7 +73,9 @@ collections_config:
     path: src/content/posts
     name: Posts
     icon: event_available
-    disable_url: true
+    url: /blog
+    disable_url: false
+    description: ''
     _enabled_editors:
     disable_add: false
     disable_add_folder: false
