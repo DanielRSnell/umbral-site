@@ -19,7 +19,7 @@ collections_config:
     path: src/content/authors
     name: Authors
     icon: person
-    url: /authors
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
@@ -30,7 +30,7 @@ collections_config:
     path: src/content/careers
     name: Careers
     icon: camera
-    url: /careers
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
@@ -51,7 +51,7 @@ collections_config:
     path: src/content/homepage
     name: Homepage
     icon: compare
-    url: /
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
@@ -62,7 +62,7 @@ collections_config:
     path: src/content/integrations
     name: Integrations
     icon: attractions
-    url: /integrations
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
@@ -73,7 +73,7 @@ collections_config:
     path: src/content/posts
     name: Posts
     icon: event_available
-    url: /blog
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
