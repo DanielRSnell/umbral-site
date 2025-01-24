@@ -8,7 +8,7 @@ collections_config:
     path: src/content/pages
     name: Pages
     icon: wysiwyg
-    url: /
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
