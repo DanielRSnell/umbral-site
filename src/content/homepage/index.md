@@ -1,10 +1,10 @@
 ---
 banner:
-  title: AI-Powered Chat Solutions & Automations That Scale WITH you
+  title: AI-Powered Automations That Scale WITH you
   content: >-
     From internal workflows to customer support, harness intelligent automation
     to transform how your business operates and grows.
-  image: /images/banner.png
+  image: ../../../automation-image.png
   newsletter: true
   supported:
     title: Supported
