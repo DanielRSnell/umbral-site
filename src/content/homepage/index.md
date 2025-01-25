@@ -18,9 +18,9 @@ banner:
       - icon: FaAndroid
         link: '#?'
     facility:
-      - AI Integration
-      - N8N Workflows
-      - 24/7 Support
+      - AI Chatbots
+      - AI Inbound Voice Calls
+      - Automations
 brands:
   - /images/brands/1.png
   - /images/brands/2.png
