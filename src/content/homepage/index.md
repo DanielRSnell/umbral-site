@@ -33,11 +33,11 @@ brands:
   - /images/brands/2.png
   - /images/brands/3.png
 features:
-  subtitle: We are The Ultimate
-  title: Intelligent Automation Solutions
+  subtitle: Powerful & Flexible
+  title: Intelligent Solutions for Every Need
   description: >-
-    Our expertise in N8N and AI technologies enables us to create powerful
-    automation solutions that transform how businesses operate.
+    It's time for your business to gain AI-powered chat automations that adapt
+    to your exact, specific needs.
   button:
     enable: true
     label: All Features
@@ -46,23 +46,23 @@ features:
     - icon: FaRegPaperPlane
       title: AI Chat Integration
       description: >-
-        Implement intelligent chatbots and virtual assistants that handle
-        customer inquiries and streamline communication workflows.
+        Implement intelligent chatbots that handle customer inquiries and
+        streamline communication workflows.
     - icon: FaCopy
       title: Voice AI Solutions
       description: >-
         Transform voice interactions into actionable data with advanced voice
         recognition and processing systems.
     - icon: FaRegLightbulb
-      title: N8N Workflows
+      title: Workflow Automations
       description: >-
-        Create custom automation workflows that connect your tools and eliminate
-        manual tasks, improving efficiency.
+        Build powerful N8N workflows that connect your tools and automate
+        repetitive tasks, from simple processes to complex business operations.
     - icon: FaObjectUngroup
-      title: System Integration
+      title: Smart Integration
       description: >-
-        Seamlessly connect your existing tools and platforms with custom
-        integrations that work exactly as needed.
+        Create seamless connections between your existing systems that enhance
+        both team productivity and customer experience.
 showcase:
   subtitle: EXPERIENCE SPEAKS
   title: See Our Solutions in Action
