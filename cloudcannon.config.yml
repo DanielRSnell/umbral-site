@@ -55,6 +55,36 @@ collections_config:
     disable_url: false
     description: ''
     _enabled_editors:
+    _inputs:
+      brands:
+        type: array
+        options:
+          empty_type: 'null'
+          preview:
+            - text:
+              subtext:
+              icon:
+              icon_color:
+              image:
+              metadata:
+              gallery:
+          structures:
+            style: select
+            id_key:
+            values:
+              - id: image
+                default:
+                icon: image
+                image:
+                label: Brand Image
+                picker_preview:
+                preview:
+                tags:
+                groups:
+                place_groups_below:
+                tabbed:
+                value:
+        cascade: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
