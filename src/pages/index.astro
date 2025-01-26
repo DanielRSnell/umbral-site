@@ -70,10 +70,10 @@ const {
   <main>
     <!-- Banner -->
     <section
-      class="section banner relative overflow-hidden before:z-10 after:z-10"
+      class="relative overflow-hidden section banner before:z-10 after:z-10"
     >
       <div class="container relative z-30">
-        <div class="row items-center">
+        <div class="items-center row">
           <div class="lg:col-6">
             <h1
               data-aos="fade-up-sm"
@@ -97,7 +97,7 @@ const {
                 >
                   <input
                     type="search"
-                    class="w-full border-0 bg-transparent p-4 pl-6 text-center text-base placeholder:text-neutral-400 focus:border-0 focus:ring-0 sm:text-left"
+                    class="w-full p-4 pl-6 text-base text-center bg-transparent border-0 placeholder:text-neutral-400 focus:border-0 focus:ring-0 sm:text-left"
                     placeholder="Enter Your Email Address"
                   />
                   <button type="submit" class="btn btn-primary btn-md">
@@ -110,7 +110,7 @@ const {
             <span
               data-aos="fade-right"
               data-aos-delay="250"
-              class="align-middle text-lg font-bold text-dark"
+              class="text-lg font-bold align-middle text-dark"
             >
               {banner.supported!.title}
             </span>
@@ -142,7 +142,7 @@ const {
                 banner.supported!.facility.map((item, index) => (
                   <li data-aos="fade-in" data-aos-delay={100 + 50 * index}>
                     <FaCheck className="text-emerald-400 inline-block mr-2 text-xl" />
-                    <p class="inline-block align-middle text-lg font-medium text-dark">
+                    <p class="inline-block text-lg font-medium align-middle text-dark">
                       {item}
                     </p>
                   </li>
@@ -156,8 +156,8 @@ const {
               class="image-block relative mr-[5.5%] md:mr-6 lg:ml-6"
             >
               <Image
-                class="banner-image w-100 h-auto"
-                src="/images/banner/banner-image.jpg"
+                class="h-auto banner-image w-100"
+                src={banner.image}
                 width={448}
                 height={564}
                 alt="banner-image"
@@ -219,7 +219,7 @@ const {
         class="shadow-default relative z-20 mx-3 max-w-[1440px] rounded-xl bg-white py-8 md:mx-6 md:py-16 lg:mx-auto"
       >
         <div class="container">
-          <div class="row justify-center">
+          <div class="justify-center row">
             {
               brands.map((brand) => (
                 <div
@@ -244,18 +244,18 @@ const {
     <!-- End Brands Section -->
 
     <!-- Features -->
-    <section class="section features relative z-20 overflow-hidden after:-z-10">
+    <section class="relative z-20 overflow-hidden section features after:-z-10">
       <div class="container relative z-30">
-        <div class="row items-end justify-between pb-12">
+        <div class="items-end justify-between pb-12 row">
           <div class="lg:col-8 xl:col-6">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-up-sm"
             >
               {features.subtitle}
             </span>
             <div
-              class="mb-8 border-l-2 border-dark border-opacity-50 py-2 pl-6 lg:mb-0"
+              class="py-2 pl-6 mb-8 border-l-2 border-opacity-50 border-dark lg:mb-0"
               data-aos="fade-up-sm"
             >
               <h2
@@ -292,7 +292,7 @@ const {
                   data-aos-delay={200 + 50 * index}
                   class="md:col-6 lg:col-4 xl:col-3"
                 >
-                  <div class="h-full rounded-2xl border border-border/30 bg-white px-8 py-12 transition-all duration-300 hover:shadow-sm">
+                  <div class="h-full px-8 py-12 transition-all duration-300 bg-white border rounded-2xl border-border/30 hover:shadow-sm">
                     <div class="icon-box">
                       <DynamicIcon icon={feature.icon} />
                     </div>
@@ -321,7 +321,7 @@ const {
       </div>
       <div
         data-aos="fade-right-sm"
-        class="pointer-events-none absolute right-0 top-52 hidden select-none lg:block"
+        class="absolute right-0 hidden pointer-events-none select-none top-52 lg:block"
       >
         <img
           class="inject-svg text-secondary"
@@ -336,12 +336,12 @@ const {
     <!-- /Features -->
 
     <!-- Showcase -->
-    <section class="section relative z-20 overflow-hidden">
+    <section class="relative z-20 overflow-hidden section">
       <div class="container">
-        <div class="row pb-12 text-center">
+        <div class="pb-12 text-center row">
           <div class="mx-auto lg:col-7">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-up-sm"
               data-aos-delay="50"
             >
@@ -391,7 +391,7 @@ const {
                 >
                   <div class="invisible h-0 opacity-70 transition-opacity duration-300 group-[.active]:visible group-[.active]:h-full group-[.active]:opacity-100">
                     <Image
-                      class="h-full w-full rounded-xl"
+                      class="w-full h-full rounded-xl"
                       src={item.image}
                       alt="feature image"
                       width={850}
@@ -433,12 +433,12 @@ const {
     <!-- End Showcase Section -->
 
     <!-- Funfacts -->
-    <section class="section relative z-20 overflow-hidden">
+    <section class="relative z-20 overflow-hidden section">
       <div class="container">
-        <div data-aos="fade-up-sm" class="row pb-12 text-center">
+        <div data-aos="fade-up-sm" class="pb-12 text-center row">
           <div class="mx-auto lg:col-8">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-up-sm"
               data-aos-delay="50"
             >
@@ -456,10 +456,10 @@ const {
             </p>
           </div>
         </div>
-        <div class="row relative">
+        <div class="relative row">
           <div class="col-12">
             <ul
-              class="funfacts-list list-dotted-line-separator shadow-default flex flex-col justify-center gap-6 rounded-2xl bg-white px-12 py-10 sm:py-14 md:flex-row md:gap-0"
+              class="flex flex-col justify-center gap-6 px-12 py-10 bg-white funfacts-list list-dotted-line-separator shadow-default rounded-2xl sm:py-14 md:flex-row md:gap-0"
             >
               {
                 funfacts.list.map((counter, index: number) => (
@@ -468,7 +468,7 @@ const {
                     data-aos="fade-up-sm"
                     data-aos-delay="200"
                   >
-                    <span class="mb-6 block font-secondary text-3xl font-bold text-dark md:text-4xl xl:text-6xl counter-count">
+                    <span class="block mb-6 text-3xl font-bold font-secondary text-dark md:text-4xl xl:text-6xl counter-count">
                       {counter.count}
                     </span>
                     <div class="text-dark md:text-h6 xl:text-h4">
@@ -511,17 +511,17 @@ const {
 
     <!-- services -->
     <section
-      class="section-lg feature triangle-up relative z-20 overflow-hidden pb-0"
+      class="relative z-20 pb-0 overflow-hidden section-lg feature triangle-up"
     >
       <div class="container relative z-20">
-        <div class="row gy-4 items-center">
+        <div class="items-center row gy-4">
           <div data-aos="fade-left-sm" class="lg:col-7">
-            <div class="feature-clip-path-1 relative">
+            <div class="relative feature-clip-path-1">
               <Image
                 width={727}
                 height={613}
                 src={services[0].image}
-                class="mx-auto block"
+                class="block mx-auto"
                 alt="feature image"
               />
               <!-- Start Bg Shape -->
@@ -550,14 +550,14 @@ const {
           </div>
           <div class="lg:col-5">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-right-sm"
             >
               {services[0].subtitle}
             </span>
             <div
               data-aos="fade-right-sm"
-              class="mb-6 border-l-2 border-dark border-opacity-50 py-2 pl-6"
+              class="py-2 pl-6 mb-6 border-l-2 border-opacity-50 border-dark"
             >
               <h2
                 class="font-semibold"
@@ -584,20 +584,20 @@ const {
     </section>
 
     <section
-      class="section-lg feature triangle-down relative z-20 overflow-hidden pt-32"
+      class="relative z-20 pt-32 overflow-hidden section-lg feature triangle-down"
     >
       <div class="container relative z-20">
-        <div class="row gy-4 items-center">
+        <div class="items-center row gy-4">
           <div class="order-1 lg:col-5 lg:order-0">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-left-sm"
             >
               {services[1].subtitle}
             </span>
             <div
               data-aos="fade-left-sm"
-              class="mb-6 border-l-2 border-dark border-opacity-50 py-2 pl-6"
+              class="py-2 pl-6 mb-6 border-l-2 border-opacity-50 border-dark"
             >
               <h2
                 class="font-semibold"
@@ -616,10 +616,10 @@ const {
             </p>
           </div>
           <div class="order-0 lg:col-7 lg:order-0">
-            <div class="feature-clip-path-2 relative" data-aos="fade-right-sm">
+            <div class="relative feature-clip-path-2" data-aos="fade-right-sm">
               <Image
                 src="/images/feature-2.png"
-                class="mx-auto block"
+                class="block mx-auto"
                 width={724}
                 height={564}
                 alt="feature image"
@@ -663,20 +663,20 @@ const {
 
     <!-- Lates aritcles -->
     <section
-      class="section-md articles relative z-20 overflow-hidden after:-z-10"
+      class="relative z-20 overflow-hidden section-md articles after:-z-10"
     >
       <div class="container relative z-30">
-        <div class="row items-end justify-between pb-12">
+        <div class="items-end justify-between pb-12 row">
           <div class="lg:col-8 xl:col-6">
             <span
-              class="mb-6 inline-block font-medium uppercase text-red-400"
+              class="inline-block mb-6 font-medium text-red-400 uppercase"
               data-aos="fade-up-sm"
             >
               {article.subtitle}
             </span>
             <div
               data-aos="fade-up-sm"
-              class="mb-8 border-l-2 border-dark border-opacity-50 py-2 pl-6 lg:mb-0"
+              class="py-2 pl-6 mb-8 border-l-2 border-opacity-50 border-dark lg:mb-0"
             >
               <h2 class="font-semibold" data-aos="fade-up-sm">
                 {article.title}
@@ -706,7 +706,7 @@ const {
     <!-- Start Bg Shape -->
     <div
       data-aos="fade-left-sm"
-      class="pointer-events-none absolute -left-24 bottom-0 hidden select-none lg:block"
+      class="absolute bottom-0 hidden pointer-events-none select-none -left-24 lg:block"
     >
       <img
         class="inject-svg text-secondary"
@@ -716,7 +716,7 @@ const {
     </div>
     <div
       data-aos="fade-right-sm"
-      class="pointer-events-none absolute right-0 top-52 hidden select-none lg:block"
+      class="absolute right-0 hidden pointer-events-none select-none top-52 lg:block"
     >
       <img
         class="inject-svg text-quinary"
