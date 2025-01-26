@@ -4,7 +4,7 @@ banner:
   content: >-
     From internal workflows to customer support, harness intelligent automation
     to transform how your business operates and grows.
-  image: ../../../automation-image.png
+  image: /images/banner/automation-image.png
   newsletter: true
   supported:
     title: Supported
