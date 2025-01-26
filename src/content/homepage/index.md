@@ -10,28 +10,28 @@ banner:
     title: Supported
     list:
       - icon: FaWindows
-        link: '#?'
+        link: "#?"
       - icon: FaDropbox
-        link: '#?'
+        link: "#?"
       - icon: FaHashtag
-        link: '#'
+        link: "#"
       - icon: FaAndroid
-        link: '#?'
+        link: "#?"
     facility:
       - AI Chatbots
       - AI Inbound Voice Calls
       - Automations
 brands:
-  - /images/brands/1.png
-  - /images/brands/2.png
-  - /images/brands/3.png
-  - /images/brands/4.png
-  - /images/brands/5.png
-  - /images/brands/6.png
-  - /images/brands/7.png
-  - /images/brands/1.png
-  - /images/brands/2.png
-  - /images/brands/3.png
+  - image: /images/brands/1.png
+  - image: /images/brands/2.png
+  - image: /images/brands/3.png
+  - image: /images/brands/4.png
+  - image: /images/brands/5.png
+  - image: /images/brands/6.png
+  - image: /images/brands/7.png
+  - image: /images/brands/1.png
+  - image: /images/brands/2.png
+  - image: /images/brands/3.png
 features:
   subtitle: Powerful & Flexible
   title: Intelligent Solutions for Every Need
@@ -41,7 +41,7 @@ features:
   button:
     enable: true
     label: All Features
-    link: '#'
+    link: "#"
   list:
     - icon: FaRegPaperPlane
       title: AI Chat Integration
@@ -115,5 +115,5 @@ article:
   button:
     enable: true
     label: All Articles
-    link: '#'
+    link: "#"
 ---

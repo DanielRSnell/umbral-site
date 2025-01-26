@@ -23,7 +23,9 @@ interface Homepage {
       facility: string[];
     };
   };
-  brands: Array<string>;
+  brands: {
+    image: string;
+  }[];
   features: Feature;
   showcase: {
     subtitle: string;
@@ -230,7 +232,7 @@ const {
                   <Image
                     width={169}
                     height={60}
-                    src={brand}
+                    src={brand.image}
                     alt="brand logo"
                     class="inline-block py-4 sm:mx-auto"
                   />
