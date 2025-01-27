@@ -10,20 +10,20 @@ banner:
     title: Supported
     list:
       - icon: FaWindows
-        link: "#?"
+        link: '#?'
       - icon: FaDropbox
-        link: "#?"
+        link: '#?'
       - icon: FaHashtag
-        link: "#"
+        link: '#'
       - icon: FaAndroid
-        link: "#?"
+        link: '#?'
     facility:
       - AI Chatbots
       - AI Inbound Voice Calls
       - Automations
 brands:
-  - image: /images/brands/1.png
-  - image: /images/brands/2.png
+  - image: /n8n-logo.png
+  - image: /voiceflow-logo-vector.png
   - image: /images/brands/3.png
   - image: /images/brands/4.png
   - image: /images/brands/5.png
@@ -41,7 +41,7 @@ features:
   button:
     enable: true
     label: All Features
-    link: "#"
+    link: '#'
   list:
     - icon: FaRegPaperPlane
       title: AI Chat Integration
@@ -115,5 +115,5 @@ article:
   button:
     enable: true
     label: All Articles
-    link: "#"
+    link: '#'
 ---
