@@ -27,8 +27,8 @@ brands:
   - image: /openai-logo-svg.png
   - image: /images/brands/4.png
   - image: /supabase-logo-vector.png
-  - image: /images/brands/6.png
-  - image: /images/brands/7.png
+  - image: /claude-ai-logo-svg.png
+  - image: /retell-ai-logo.png
   - image: /images/brands/1.png
   - image: /images/brands/2.png
   - image: /images/brands/3.png
