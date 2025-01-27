@@ -14,13 +14,17 @@ banner:
     title: Supported
     list:
       - icon: FaWindows
-        link: '#?'
+        link: "#?"
       - icon: FaDropbox
-        link: '#?'
+        link: "#?"
       - icon: FaHashtag
-        link: '#'
+        link: "#"
       - icon: FaAndroid
-        link: '#?'
+        link: "#?"
+    facility:
+      - AI Chatbots
+      - AI Inbound Voice Calls
+      - Automations
 brands:
   - image: /n8n-logo.png
   - image: /voiceflow-logo-vector.png
