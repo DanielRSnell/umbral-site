@@ -29,8 +29,8 @@ brands:
   - image: /supabase-logo-vector.png
   - image: /claude-ai-logo-svg.png
   - image: /retell-ai-logo.png
-  - image: /wordpress-logo.png
-  - image: /images/brands/2.png
+  - image: /wordpress-logo-1.png
+  - image: /woocommerce-logo.jpg
   - image: /images/brands/3.png
 features:
   subtitle: Powerful & Flexible
