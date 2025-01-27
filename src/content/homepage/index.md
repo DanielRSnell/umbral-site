@@ -23,7 +23,7 @@ banner:
       - Automations
 brands:
   - image: /n8n-logo.png
-  - image: /voiceflow-wordmark-dark-mwxn-xqr.svg
+  - image: /voiceflow-logo-vector.png
   - image: /openai-logo-svg.png
   - image: /images/brands/4.png
   - image: /supabase-logo-vector.png
