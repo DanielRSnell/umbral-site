@@ -24,9 +24,9 @@ banner:
 brands:
   - image: /n8n-logo.png
   - image: /voiceflow-logo-vector.png
-  - image: /images/brands/3.png
+  - image: /openai-logo-svg.png
   - image: /images/brands/4.png
-  - image: /images/brands/5.png
+  - image: /supabase-logo-vector.png
   - image: /images/brands/6.png
   - image: /images/brands/7.png
   - image: /images/brands/1.png
