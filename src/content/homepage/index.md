@@ -19,7 +19,7 @@ banner:
         link: '#?'
     facility:
       - AI Chatbots
-      - AI Inbound Voice Calls
+      - AI Inbound Voice Callers
       - Automations
 brands:
   - image: /n8n-logo.png
