@@ -6,17 +6,6 @@ banner:
     to transform how your business operates and grows.
   image: /images/banner/automation-image.png
   newsletter: true
-  supported:
-    title: Supported
-    list:
-      - icon: FaWindows
-        link: '#?'
-      - icon: FaDropbox
-        link: '#?'
-      - icon: FaHashtag
-        link: '#'
-      - icon: FaAndroid
-        link: '#?'
     facility:
       - AI Chatbots
       - AI Inbound Voice Callers
