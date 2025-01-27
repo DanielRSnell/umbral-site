@@ -10,6 +10,17 @@ banner:
       - AI Chatbots
       - AI Inbound Voice Callers
       - Automations
+  supported:
+    title: Supported
+    list:
+      - icon: FaWindows
+        link: '#?'
+      - icon: FaDropbox
+        link: '#?'
+      - icon: FaHashtag
+        link: '#'
+      - icon: FaAndroid
+        link: '#?'
 brands:
   - image: /n8n-logo.png
   - image: /voiceflow-logo-vector.png
